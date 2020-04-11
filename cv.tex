@@ -1,0 +1,132 @@
+\documentclass{article}
+
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{listings}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\lstset{
+    basicstyle=\small\ttfamily,
+    columns=flexible,
+    breaklines=true
+}
+
+\titleformat{\section}
+{\Large\filcenter\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}[runin]
+{\large\bfseries}
+{}
+{0em}
+{}[:]
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\renewcommand{\maketitle}{
+\vskip -5cm
+\begin{center}
+
+
+{\huge\bfseries
+Ray Garner}
+
+\vskip 0.25cm
+
+{\large
+ray@perfectcast.co.uk}
+
+\vskip 1cm
+
+\end{center}
+}
+
+
+\title{CV}
+\date{10/04/20}
+\author{Ray Garner}
+
+\begin{document}
+
+\maketitle
+
+
+
+\section{Education and Qualifications}
+
+\begin{itemize}[noitemsep]
+
+\item 11 GCSEs A*-B. Studied at Guthlaxton High School.
+\item A, A, B in A-Level Computer Science, Music Technology and Music, respectively. Studied at Wigston College.
+\item Computer Science BSc student at the University of Nottingham
+\item RSL Grade 8 electric guitar
+
+\end{itemize}
+
+\section{Software Experience}
+
+{\renewcommand{\arraystretch}{2}
+
+\begin{tabular}{ r | p{10cm} }
+
+{\large\bfseries Software development} & {vim, gcc, gdb, ghci, vscode, Eclipse IDE, MATLAB, Visual Studio, standard web browser development tools, git, make}\\
+{\large\bfseries Multimedia} & {Cubase, Ardour, ffmpeg, Audacity, Avid Sibelius, Musescore, GIMP, mpv, Blender} \\
+{\large\bfseries *nix utilities} & {ssh, ftp, trivial file management commands, man, top, shell script, sed, awk, grep, mutt} \\
+{\large\bfseries Design} & {Google SketchUp, Circuit Wizard} \\
+{\large\bfseries Programming languages} & {C, ARM asm, Java, Haskell, MySQL, JavaScript, PHP, VB.NET, nand-to-tetris Hardware Description Language}\\
+{\large\bfseries Markup languages} & {HTML, CSS, \LaTeX, Groff, Markdown}\\
+
+
+\end{tabular}
+
+\section{Music Experience}
+
+{\renewcommand{\arraystretch}{1.4}
+
+\begin{tabular}{>{\centering}p{0.5\textwidth} | >{\centering}p{0.5\textwidth} }
+{\large\bfseries Shows as a pit-band guitarist} & {\large\bfseries Other musical experience}
+\tabularnewline
+Joseph and his amazing Technocolour Dreamcoat (Abington High School) & Lead guitarist in Leicester alt-rock band ``The Scrubs"
+\tabularnewline
+Little Shop of Horrors (Guthlaxton High School) & Lead guitarist in the Wigston College Jazz Band
+\tabularnewline
+Annie (Wigston College) & Choir member in ``The Armed man: A mass for Peace" at the Royal Albert Hall
+\tabularnewline
+School of Rock (Wigston College) & Guitarist in Rhys Chatham's ``A Secret Rose" Birmingham Town Hall Performance
+\tabularnewline
+Cats (The Little Theatre) & Recording technician for Wigston Academy Trust GSCE Music recitals
+\tabularnewline
+{} & Lead guitarist and co-producer in Leicester math-rock band ``PE Department"
+
+\end{tabular}
+
+
+
+\section{Other Work Experience}
+
+\subsection{Perfectcast Ltd}
+
+\begin{itemize}[noitemsep]
+
+\item Laptop hardware upgrades
+\item Corporate laptop imaging
+\item Cisco video conference system installation
+\item Blender renderfarm install
+\item End-user IT support
+\item Network IT support
+
+\end{itemize}
+
+
+
+\end{document}
+
+

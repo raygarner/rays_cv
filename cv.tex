@@ -1,5 +1,6 @@
 \documentclass{article}
 
+\usepackage{amssymb}
 \usepackage{array}
 \usepackage{graphicx}
 \usepackage[english]{babel}
@@ -38,6 +39,7 @@
 \vskip -5cm
 \begin{center}
 
+%\renewcommand{\labelitemi}{\scriptsize$\blacksquare$}
 
 {\huge\bfseries
 Ray Garner}
@@ -69,6 +71,7 @@ ray@perfectcast.co.uk\hspace{0.5cm}
 
 \begin{itemize}[noitemsep]
 
+\renewcommand{\labelitemi}{$\square$}
 \item Second year Computer Science BSc student at the University of Nottingham
 \item RSL Grade 8 electric guitar
 \item A, A, B in A-Level Computer Science, Music Technology and Music through Wigston College
@@ -76,13 +79,13 @@ ray@perfectcast.co.uk\hspace{0.5cm}
 
 \end{itemize}
 
-\section{Software Experience}
+\section{Software Tools Experience}
 
-{\renewcommand{\arraystretch}{1.4}
+\renewcommand{\arraystretch}{1.4}
 
-\begin{tabular}{ r | p{8cm} }
+\begin{tabular}{ r | p{11cm} }
 
-{\large\bfseries Software development} & {vim, gcc, gdb, ghc, vscode, Eclipse IDE, MATLAB, Visual Studio, Chrome dev tools, git, make}\\
+{\large\bfseries Software development} & {vim, gcc, gdb, ghc, vscode, Eclipse IDE, JUnit testing, MATLAB, Visual Studio, Chrome dev tools, git, make}\\
 {\large\bfseries Multimedia} & {Reaper, Cubase, Ardour, ffmpeg, Audacity, Avid Sibelius, Musescore, GIMP, Blender} \\
 %{\large\bfseries *nix utilities} & {ssh, ftp, trivial file management commands, man, top, shell script, sed, awk, grep, mutt, package managers (pacman and apt), cron, systemctl} \\
 {\large\bfseries Network tools} & {netctl, ftp, ssh, Citrix Receiver, VMware Horizon} \\
@@ -90,12 +93,29 @@ ray@perfectcast.co.uk\hspace{0.5cm}
 {\large\bfseries Languages} & {C, ARM asm, Java, Haskell, MySQL, JavaScript, PHP, VB.NET, shell script}\\
 {\large\bfseries Markup languages} & {HTML, CSS, \LaTeX, Markdown}\\
 {\large\bfseries Operating systems} & {Arch Linux, Debian Linux, Windows 7 onwards, macOS Sierra onwards}\\
-{\large\bfseries Programming projects and interests} & {I have written chess engines in C and Haskell and a multi-track audio recording tool in C and shell script}\\
+%{\large\bfseries Programming projects and interests} & {I have written chess engines in C and Haskell and a multi-track audio recording tool in C and shell script}\\
 \end{tabular}
+
+\section{Software Development Experience}
+
+\begin{itemize}[noitemsep]
+
+\renewcommand{\labelitemi}{$\square$}
+\item For A-Level Computer Science coursework I created a primitive chess engine in VB.NET for the college chess club
+\item During the first year of my degree I completed various assignment exercises to gain experience with C, ARM asm, Java and Haskell.
+\item I also created a film database website using HTML, CSS, JavaScript, PHP and MySQL for the coursework in the databases and interfaces module in year 1 of my degree
+\item For the first group work module of my degree, me and my team created JUnit tests to debug a faulty finance management app. We used git for version control during this project.
+\item During the UK summer lockdown of 2020, I wrote a more advanced chess engine in Haskell with a friend on the same degree course. I later wrote a version of the same program in C, with superior efficiency.
+\item I have written shell scripts to automate the instillation and configuration of Arch Linux to my preferences and also to create a multi-track recording tool, using ffmpeg and mpv.
+
+\end{itemize}
+
+
 
 \section{Musical Experience}
 \begin{itemize}[noitemsep]
 
+\renewcommand{\labelitemi}{$\square$}
 \item Lead guitarst in Leicester alt-rock band ``The Scrubs"
 \item Lead guitarist in the Wigston College Jazz Band
 \item Choir member in ``The Armed man: A mass for Peace" at the Royal Albert Hall
@@ -105,6 +125,8 @@ ray@perfectcast.co.uk\hspace{0.5cm}
 \item Session guitarist for friends and students
 \item Pit band guitarist for the shows: Joseph and his amazing Technicolour Dreamcoat (Abington High School),
 Little Shop of Horros (Guthlaxton High School), Annie (Wigston College), School of Rock (Wigston College), Cats (The Little Theatre)
+\item Composed and produced western classical and glitch-pop pieces for A-Level Music and Music Technology using Sibelius and Cubase
+\item Composed and produced electric guitar oriented pieces as a hobby using Reaper
 
 \end{itemize}
 
@@ -115,6 +137,7 @@ Little Shop of Horros (Guthlaxton High School), Annie (Wigston College), School 
 
 \begin{itemize}[noitemsep]
 
+\renewcommand{\labelitemi}{$\square$}
 \item Laptop hardware upgrades
 \item Corporate laptop imaging
 \item Cisco video conference system installation

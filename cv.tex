@@ -6,7 +6,7 @@
 \usepackage[english]{babel}
 \usepackage{blindtext}
 \usepackage{listings}
-\usepackage[margin=2cm]{geometry}
+\usepackage[margin=1.5cm]{geometry}
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
@@ -25,10 +25,10 @@
 {}[\titlerule]
 
 \titleformat{\subsection}[runin]
-{\large\bfseries}
+{\normalsize\bfseries}
 {}
 {0em}
-{}[:]
+{}[]
 
 \tolerance=1
 \emergencystretch=\maxdimen
@@ -39,7 +39,6 @@
 \renewcommand{\maketitle}{
 \begin{center}
 
-%\renewcommand{\labelitemi}{\scriptsize$\blacksquare$}
 
 {\huge\bfseries \vspace{-2cm} Ray Garner}
 \vskip 0.25cm
@@ -64,24 +63,42 @@ ray@perfectcast.co.uk\hspace{0.5cm}
 \begin{document}
 
 \maketitle
-
-\section{Education and Qualifications}
-
-\begin{itemize}[noitemsep]
-
-\renewcommand{\labelitemi}{$\square$}
-\item Studying Computer Science BSc at the University of Nottingham in second year
-\item Attained a 1st with 87\% overall in the first year of university
-\item Achieved A, A, B in A-Level Computer Science, Music Technology and Music through Wigston College
-\item Passed RSL Grade 8 electric guitar with merit
-
-\end{itemize}
-
 \section{Personal Profile}
 I chose to study Computer Science because I find the work of software engineers like John Carmack and Linus Torvalds highly inspiring and also because I find programming exercises my imagination in a unique way.
 Developing software gives me a similar sense of satisfaction as composing music does, a prolific hobby of mine.
 Along with composing music, I have enjoyed playing in a variety of musical ensembles for several years now. 
-This experience gave me the opportunity to practice my teamwork skills and creativity to a great extent, which quickly became useful during the group work module in the first year of my degree studies.
+This experience gave me the opportunity to practice my teamwork skills and creativity to a great extent, which quickly became useful during the group work project in the first year of my degree studies.
+
+
+
+\section{Education and Qualifications}
+
+\subsection{University of Nottingham}
+\begin{itemize}[noitemsep]
+\item \textbf{2020-Present} - Studying in 2nd year of Computer Science Bsc. Core modules include software engineering group project, operating systems \& concurrency, algorithms \& efficiency and I've opted for optional modules in advanced functional programming, C++ programming and AI methods. 
+\item \textbf{2019-2020} - Attained a 1st with 87\% overall in year 1 of Computer Science Bsc. Core modules included programming \& algorithms, maths for computer science, systems \& architecture, databases \& interfaces and fundamentals of AI.
+
+
+\end{itemize}
+
+
+
+\subsection{Wigston Academy Trust}
+\begin{itemize}[noitemsep]
+
+\item \textbf{2017-2019} - Achieved A, A, B in A-Level Computer Science, Music Technology and Music
+\item \textbf{2015-2017} - Passed 11 GCSEs with grades A*-B
+
+\end{itemize}
+
+\subsection{RSL}
+\begin{itemize}[noitemsep]
+
+\item \textbf{2018} - Passed Grade 8 electric guitar with merit
+
+\end{itemize}
+
+
 
 \section{Software Tools Experience}
 
@@ -97,33 +114,37 @@ This experience gave me the opportunity to practice my teamwork skills and creat
 {\large\bfseries Operating systems} & {Arch Linux, Debian Linux, Windows 7 onwards, macOS Sierra onwards}\\
 \end{tabular}
 
+
+
+
 \section{Software Development Projects}
 
 \begin{itemize}[noitemsep]
 
-\renewcommand{\labelitemi}{$\square$}
-
-\item Created a shell script wrapper for mpv and ffmpeg to create a multi-track recording tool
-\item Programmed a chess engine in Haskell using an alpha-beta search with a university colleague and later developed a faster version of the program in C
-\item Developed shell scripts to automate the installation and configuration of Arch Linux to my preferences 
-\item Set up a film database website using HTML, CSS, JavaScript, PHP and MySQL for the coursework in the databases and interfaces module in year one of my degree. I now maintain raygarner.co.uk as a portfolio using skills I learned during that project
-\item Wrote JUnit tests to debug a faulty finance app in the first group work module of my degree and also used git for version control
-\item Utilised the Java GUI library ``swing" and object oriented programming techniques to create a Minesweeper game as a university assignment
-\item Completed various assignment exercises to gain experience with C, ARM asm, Java and Haskell during the first year of my degree
-\item Created a primitive chess engine using VB.NET for A-Level Computer Science coursework for the college chess club
+%\renewcommand{\labelitemi}{$\square$}
+\item \textbf{2019-Present} Maintain shell scripts to automate the installation and configuration of Arch Linux to my preferences 
+\item \textbf{2020} - Created a shell script wrapper for mpv and ffmpeg to create a multi-track recording tool
+\item \textbf{2020} - Programmed a chess engine in Haskell using an alpha-beta search with a university colleague and later developed a faster version of the program in C
+\item \textbf{2020} - Set up a film database website using HTML, CSS, JavaScript, PHP and MySQL for the coursework in the databases and interfaces module in year one of my degree. I now maintain raygarner.co.uk as a portfolio using skills I learned during that project
+\item \textbf{2020} - Wrote JUnit tests to debug a faulty finance app in the first group work module of my degree and also used git for version control
+\item \textbf{2020} - Utilised the Java GUI library ``swing" and object oriented programming techniques to create a Minesweeper game as a university assignment
+\item \textbf{2019} - Completed various assignment exercises to gain experience with C, ARM asm, Java and Haskell during the first year of my degree
+\item \textbf{2018-2019} - Created a primitive chess engine using VB.NET for A-Level Computer Science coursework for the college chess club
 
 \end{itemize}
 
 
 
 
-\section{Perfectcast Ltd Work Experience}
+
+\section{Work Experience}
+\subsection{2017-2020 - Perfectcast Ltd}
 
 %\subsection{Perfectcast Ltd}
 
 \begin{itemize}[noitemsep]
 
-\renewcommand{\labelitemi}{$\square$}
+%\renewcommand{\labelitemi}{$\square$}
 \item Upgraded laptop hardware
 \item Performed corporate laptop imaging
 \item Installed a Cisco video conference system 
@@ -132,23 +153,62 @@ This experience gave me the opportunity to practice my teamwork skills and creat
 
 \end{itemize}
 
-\section{Musical Experience}
+
+\subsection{2016-2019 - Wigston Academy Trust}
 \begin{itemize}[noitemsep]
 
-\renewcommand{\labelitemi}{$\square$}
-
-\item Composed and produced electric guitar oriented pieces as a hobby using Reaper
-\item Worked as lead guitarist and co-producer in Leicester math-rock band ``PE Department"
-\item Performed as lead guitarist in the Wigston College Jazz Band
-\item Composed and produced western classical and glitch-pop pieces for A-Level Music and Music Technology using Sibelius and Cubase
-\item Played as the guitarist for the shows: Joseph and his amazing Technicolour Dreamcoat (Abington High School), Little Shop of Horrors (Guthlaxton High School), Annie (Wigston College), School of Rock (Wigston College), Cats (The Little Theatre)
-\item Performed as lead guitarist in Leicester alt-rock band ``The Scrubs"
-\item Recording technician for Wigston Academy Trust GCSE Music recitals
-\item Sung in the choir in ``The Armed man: A mass for Peace" at the Royal Albert Hall
-\item Played guitar in Rhys Chatham's ``A Secret Rose" Birmingham Town Hall performance
-
+\item Played as the guitarist for the shows Joseph and his amazing Technicolour Dreamcoat, Little Shop of Horrors, Annie and School of Rock
+\item Recording technician for GCSE Music recitals
 
 \end{itemize}
+
+\subsection{2019 - The Little Theatre}
+\begin{itemize}[noitemsep]
+
+\item Played as the guitarist for their production of Cats
+
+\end{itemize}
+
+\section{Hobbies and Other Experience}
+\subsection{Music}
+\begin{itemize}[noitemsep]
+
+\item \textbf{2020} - Played as lead guitarist and co-producer in Leicester math-rock band ``PE Department"
+\item \textbf{2019-2020} - Performed as lead guitarist in the Wigston College Jazz Band
+\item \textbf{2015-2019} - Performed as lead guitarist in Leicester alt-rock band ``The Scrubs"
+\item \textbf{2015} - Sung in the choir in ``The Armed man: A mass for Peace" at the Royal Albert Hall
+\item \textbf{2014} - Played guitar in Rhys Chatham's ``A Secret Rose" Birmingham Town Hall performance
+
+\end{itemize}
+
+\subsection{Chess}
+\begin{itemize}[noitemsep]
+
+\item \textbf{2020-Present} - Member of the University of Nottingham Chess Society
+\item \textbf{2019-2020} - Co-head of the Wigston College Chess Club
+
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+%\section{Musical Experience}
+%\begin{itemize}[noitemsep]
+%
+%\renewcommand{\labelitemi}{$\square$}
+%
+%\item Composed and produced electric guitar oriented pieces as a hobby using Reaper
+%\item Composed and produced western classical and glitch-pop pieces for A-Level Music and Music Technology using Sibelius and Cubase
+%\item Played as the guitarist for the shows: Joseph and his amazing Technicolour Dreamcoat (Abington High School), Little Shop of Horrors (Guthlaxton High School), Annie (Wigston College), School of Rock (Wigston College), Cats (The Little Theatre)
+%
+%
+%\end{itemize}
 
 
 %\vskip 0.5cm
